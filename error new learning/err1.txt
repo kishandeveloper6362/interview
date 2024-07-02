@@ -1,0 +1,24 @@
+>>subcategory ni andar recvursion peoblem sikhyvano che alertdialog box no
+>>concat   sign use to + + + + + + + + + + + + + + + + + + sign is concat
+>>protector learening
+>>formdata api image how pass the valeu in form data
+>>what is different beetween key and values
+>>about page question i will click to the image to dowener part open the all details
+>>network inspect
+>>next.js 
+>>subcategory acomponent ni andar get category api ne alag state ma lidha vagar sem state ni andar set karvie to data kem automatic create thay che 
+
+
+
+
+
+new learning (1)
+1 component api ._id link click par thi 2 component ni andar te id url par kai rite get karavi 
+window.location.pathname
+
+Link
+>>>>>how to get url path in react js
+
+mui ni image list ma array ni andar je image no pth hoye tene requires apva thi img show thase nahitar nahi thayy
+
+npm animate on scrolling pacage download

@@ -1,0 +1,597 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* dashboard page css  */
+.css-syyqut {
+  padding: 0px 8px;
+  margin-left: 0px !important;
+  min-height: 0px !important;
+}
+
+.css-1r9jet7 {
+  justify-content: space-between !important;
+}
+
+.category_selector {
+  width: 45%;
+  padding: 12px 6px;
+  /* margin-bottom: 25px; */
+  background: #EAECEE;
+  border: 1px solid#EAECEE;
+  outline: none;
+}
+
+#category_submit_button {
+  padding: 6px 18px;
+  background: #7C9494;
+  border: 1px solid#78A2A0;
+  border-radius: 3px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.css-j204z7-MuiFormControlLabel-root {
+  margin-right: 0px !important;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  font-size: 14px !important;
+  padding: 2px 8px !important;
+}
+
+.css-z2eky3-MuiTypography-root {
+  margin-bottom: 0px !important;
+}
+
+.css-zxdg2z {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 12px 55px !important;
+  margin-top: 80px !important;
+}
+
+.dashboard_links_stayle {
+  text-decoration: none;
+}
+
+.main {
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.css-b937i3-MuiTypography-root {
+  width: 242px !important;
+}
+
+.card-color {
+  background: #3C5B6F;
+}
+
+.card-width {
+  flex: 1 0 calc(33.33% - 20px);
+  /* Adjust the width as needed */
+  margin: 5px;
+  /* Add margin for spacing between cards */
+  max-width: calc(33.33% - 20px);
+  /* Ensure max-width doesn't exceed 33.33% */
+  box-sizing: border-box;
+  /* Include padding and border in the width */
+}
+
+#logout {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.category-icon {
+  font-size: 34px;
+}
+
+/* CATEGORYPAGE CSS  */
+.css-1r9jet7 {
+  min-height: 0px !important;
+}
+
+.css-46b038 {
+  margin-top: 110px !important;
+}
+
+
+/* sub_category page css   */
+
+.subcategory_input {
+  width: 100%;
+  padding: 8px 4px;
+  margin-bottom: 4px;
+  background: #EAECEE;
+  border: 1px solid #EAECEE;
+  outline: none;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 3px 4px !important;
+  background: #EAECEE !important;
+  border: 1px solid #EAECEE !important;
+  outline: none !important;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  border-radius: 0px !important;
+}
+
+/* question page css */
+.Question_input {
+  width: 100%;
+  padding: 8px 4px;
+  margin-bottom: 4px;
+  background: #EAECEE;
+  border: 1px solid #EAECEE;
+  outline: none;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 48% !important;
+}
+
+/* Signup page css */
+#email,
+#Name,
+#password {
+  padding: 5px 15px;
+  outline: none;
+  border: 2px solid#D6D9E4;
+}
+
+#button {
+  padding: 5px 52px;
+  background: #344563;
+  border: 1px solid #344563;
+  color: white;
+}
+
+/* side icon css */
+.css-h4y409-MuiList-root {
+  padding-top: 32px !important;
+}
+
+
+
+/* Web_Site Css Start */
+
+/* header css */
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: white !important;
+  box-shadow: none !important;
+}
+
+.css-m5x0z-MuiTypography-root {
+  align-items: center !important;
+}
+
+.css-m5x0z-MuiTypography-root {
+  margin-right: 0px !important;
+}
+
+.css-1t6c9ts {
+  display: flex;
+  justify-content: center !important;
+}
+
+#header_page {
+  text-decoration: none;
+  color: black;
+}
+
+/* slider css start */
+.slick-prev:before,
+.slick-next:before {
+  color: blue !important;
+}
+
+.slick-prev {
+  left: 56px !important;
+  z-index: 10 !important;
+  display: none !important;
+}
+
+.slick-next {
+  right: 56px !important;
+  display: none !important;
+}
+
+.slick-dots {
+  bottom: 30px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 10px !important;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  color: #0E46A3 !important;
+  display: none;
+}
+
+/* our course css */
+
+.our_course {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+.our_course::before {
+  content: "";
+  position: absolute;
+  left: -33px;
+  top: 8px;
+  height: 2px;
+  width: 20px;
+  background-color: #D2AB68;
+}
+
+.offered_course {
+  font-family: 'Rubik', sans-serif;
+  color: #193566;
+}
+
+.css-ag7rrr-MuiTypography-root {
+  font-weight: 800 !important;
+
+}
+
+.card_link {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 0px 22px;
+}
+
+.css-6gdioc-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: #19456B !important;
+}
+
+
+.css-h93ljk-MuiTypography-root {
+  margin-bottom: 0px !important;
+}
+
+.css-a42otg-MuiCardContent-root {
+  padding: 10px 14px !important;
+  border-bottom: 1px solid;
+}
+
+.css-dnrpxu-MuiCardActions-root {
+  padding: 10px 8px 18px 8px !important;
+}
+
+.css-dnrpxu-MuiCardActions-root {
+  justify-content: space-between !important;
+}
+
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
+  padding-top: 33px !important;
+}
+
+.css-6zisiz-MuiPaper-root-MuiCard-root {
+  min-width: 275px;
+  margin: 16px;
+  padding: 0px 15px 12px 15px !important;
+}
+
+#card-logo {
+  color: #FF9A00;
+  font-size: 35px;
+}
+
+#category_card_hover {
+  transition: 0.3s;
+}
+
+#category_card_hover:hover {
+  margin-top: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+
+/* second slider */
+
+.second_slider {
+  margin: 90px 0px;
+  background-image: url(/src/Images/slideimgsecond2.jpg);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -260px;
+}
+
+.story_image {
+  object-fit: cover;
+}
+
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
+  padding: 0px !important;
+}
+
+.css-mhc70k-MuiGrid-root {
+  margin-left: 0px !important;
+}
+
+/* .padd {
+  padding: 0px 20px 0px 0px;
+} */
+
+/* our latest news css */
+.css-46bh2p-MuiCardContent-root:last-child {
+  padding-bottom: 15px !important;
+}
+
+
+/* footer hover */
+#fotter_hover a {
+  transition: 0.3s;
+}
+
+#fotter_hover a:hover {
+  color: #D2AB68 !important;
+}
+
+#input {
+  width: 66%;
+  height: 40px;
+  padding: 14px;
+  outline: none;
+}
+
+/* #input_button a{
+  color: #d2ab68;
+  position: absolute;
+  top: 0;
+  right: 0;
+} */
+
+
+/* home css */
+.css-j35s2b-MuiCardContent-root:last-child {
+  padding-bottom: 5px !important;
+}
+
+.css-j35s2b-MuiCardContent-root {
+  padding: 5px 18px !important;
+}
+
+.counter {
+  background-image: url('./Images/banchimg-transformed.jpeg');
+  width: 100%;
+  height: 330px;
+  background-repeat: 'no-repeat';
+  background-size: 'cover';
+  background-position-y: -430px;
+  margin: 100px 0px 50px 0px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.counter::before {
+  position: absolute;
+  content: "";
+  background-color: rgba(3, 38, 77, 0.7);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* subcategory css */
+
+.sub_category {
+  padding: 48px 0px;
+  background-image: url(../src/Images/subcategoryimg.jpg);
+  width: 100%;
+}
+
+.breadcrumb {
+  color: white;
+  text-decoration: none;
+}
+
+.css-63vwl1-MuiTypography-root-MuiBreadcrumbs-root {
+  color: white !important;
+}
+
+#gallary_img {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(./Images/gallaryimg.jpg);
+  width: 100%;
+  /* height: 300px; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position-y: -160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-Content: center;
+  padding: 160px 0px;
+}
+
+
+/* conatct page scs */
+#contact_img {
+  background-image: url(https://img.freepik.com/premium-photo/woman-using-phone-while-sitting-table_1048944-7973472.jpg?w=740);
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -250px;
+}
+
+#FirstName,
+#LastName,
+#Subject,
+#Email {
+  width: 45%;
+  padding: 8px 10px;
+  margin: 0px 16px 25px 0px;
+  border: 1px solid #D6D9E4;
+  cursor: pointer;
+}
+
+#Massege {
+  border: 1px solid #D6D9E4;
+  width: 535px;
+  height: 115px;
+}
+
+#submit_button {
+  padding: 14px 32px;
+  background: #d2ab68;
+  border: 1px solid #d2ab68;
+  color: white;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+#contact_info a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+#icon_color {
+  color: #d2ab68;
+  margin-right: 20px;
+}
+
+/* about page css */
+.About_page {
+  background-image: url(./Images/aboutpage.jpg);
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -230px;
+}
+
+/* gallary page css  */
+.css-uym98a-MuiImageList-root {
+  display: grid;
+  overflow-y: none;
+  list-style: none;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+  width: 100% !important;
+  height: auto !important;
+}
+
+#gallary_homelinks {
+  text-decoration: none;
+  color: white;
+}
+
+.css-esekpj-MuiImageList-root {
+  display: grid;
+  overflow-y: hidden !important;
+  padding: 0;
+  width: 100% !important;
+}
+
+#subcategory_link {
+  text-decoration: none;
+  color: black;
+  padding: 15px 20px;
+  display: inline-block;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+#subcategory_link:hover {
+  color: #D2AB68;
+}
+
+.css-wtwtqx-MuiTableCell-root.MuiTableCell-head {
+  background-color: #05396B !important;
+  padding: 15px 20px;
+}
+
+.css-46bh2p-MuiCardContent-root {
+  padding: 16px 14px 0px 14px !important;
+}
+
+/* loader css */
+.loader-background {
+  background: #1B2832;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 3px dotted #D2AB68;
+  border-style: solid solid dotted dotted;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 2s linear infinite;
+  left: 590px;
+  top: 420px;
+}
+
+.loader::after {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px dotted red;
+  border-style: solid solid dotted;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  animation: rotationBack 1s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+
+
+/* pop up */
