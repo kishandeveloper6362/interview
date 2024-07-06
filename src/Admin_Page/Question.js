@@ -56,7 +56,7 @@ const Qusetion = () => {
     });
 
     const QeustionGetApi = () => {
-        axios.get('http://localhost:5500/questions/', {
+        axios.get('https://interviewhub-3ro7.onrender.com/questions/', {
             headers: {
                 Authorization: InToken
             }
@@ -76,7 +76,7 @@ const Qusetion = () => {
         // console.log(storedata.splice(index, 1));
         // setQuestion(storedata)
 
-        axios.delete(`http://localhost:5500/questions/${index}`, { headers: { Authorization: InToken } })
+        axios.delete(`https://interviewhub-3ro7.onrender.com/questions/${index}`, { headers: { Authorization: InToken } })
             .then((res) => {
                 console.log('Question Delete Api Working', res);
                 QeustionGetApi()
@@ -87,7 +87,7 @@ const Qusetion = () => {
     }
 
     const PrintSubCategoryData = () => {
-        axios.get('http://localhost:5500/subcatagory/', {
+        axios.get('https://interviewhub-3ro7.onrender.com/subcatagory/', {
             headers: {
                 Authorization: InToken
             }
@@ -184,7 +184,7 @@ const Qusetion = () => {
                                     validationSchema={SignupSchema}
                                     onSubmit={async (values, action) => {
                                         if (updateind >= 0) {
-                                            axios.patch(`http://localhost:5500/questions/${question[updateind]._id}`, values, {
+                                            axios.patch(`https://interviewhub-3ro7.onrender.com/questions/${question[updateind]._id}`, values, {
                                                 headers: {
                                                     Authorization: InToken
                                                 }
@@ -208,7 +208,7 @@ const Qusetion = () => {
                                             // setQuestion([...question, values])
                                             // console.log('Question Get The Values >>>>>>>', values);
 
-                                            axios.post('http://localhost:5500/questions/create', values, {
+                                            axios.post('https://interviewhub-3ro7.onrender.com/questions/create', values, {
                                                 headers: {
                                                     Authorization: InToken
                                                 }

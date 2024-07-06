@@ -82,7 +82,7 @@ const Home = () => {
     // console.log(usetoken);
 
     const categorygetapi = () => {
-        axios.get('http://localhost:5500/catagory/', {
+        axios.get('https://interviewhub-3ro7.onrender.com/catagory/', {
             headers: {
                 Authorization: usetoken
             }
@@ -94,6 +94,7 @@ const Home = () => {
 
             .catch((error) => {
                 console.log('Category Api Get All Error====>>>>  ', error);
+                console.log("usetoken=>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>",usetoken );
             })
     }
     useEffect(() => {

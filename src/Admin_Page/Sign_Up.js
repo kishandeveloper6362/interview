@@ -27,7 +27,7 @@ const Sign_Up = () => {
                             // setdata([...data, values])
                             // console.log('data state >>>>>>', values);
 
-                            axios.post(`http://localhost:5500/admin/signup`, values)
+                            axios.post(`https://interviewhub-3ro7.onrender.com/admin/signup`, values)
                                 .then((res) => {
                                     console.log('Sign Up Response ===>>>', res);
                                     setdata(res.data.data)

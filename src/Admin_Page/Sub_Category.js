@@ -110,7 +110,7 @@ const Sub_Category = () => {
     const TokensData = localStorage.getItem('token')
 
     const GetApi = () => {
-        axios.get('http://localhost:5500/subcatagory/', {
+        axios.get('https://interviewhub-3ro7.onrender.com/subcatagory/', {
             headers: {
                 Authorization: TokensData
             }
@@ -125,7 +125,7 @@ const Sub_Category = () => {
     }
 
     const categoryidApi = () => {
-        axios.get('http://localhost:5500/catagory/', {
+        axios.get('https://interviewhub-3ro7.onrender.com/catagory/', {
             headers: {
                 Authorization: TokensData
             }
@@ -154,7 +154,7 @@ const Sub_Category = () => {
 
     const deletehandler = (index) => {
         console.log('delete handler ====>>>>>', index);
-        axios.delete(`http://localhost:5500/subcatagory/${index}`, {
+        axios.delete(`https://interviewhub-3ro7.onrender.com/subcatagory/${index}`, {
             headers: {
                 Authorization: TokensData
             }
@@ -172,7 +172,7 @@ const Sub_Category = () => {
     const handleChanges = (index, element) => {
         // const newStatus = element.status === 'on' ? 'off' : 'on';
 
-        axios.patch(`http://localhost:5500/subcatagory/` + index, { ...element, status: element.status == "on" ? "off" : "on" }, {
+        axios.patch(`https://interviewhub-3ro7.onrender.com/subcatagory/` + index, { ...element, status: element.status == "on" ? "off" : "on" }, {
             headers: {
                 Authorization: TokensData,
             },
@@ -249,7 +249,7 @@ const Sub_Category = () => {
                                         onSubmit={async (values, action) => {
 
                                             if (updateids) {
-                                                axios.patch(`http://localhost:5500/subcatagory/${updateids._id}`, values, {
+                                                axios.patch(`https://interviewhub-3ro7.onrender.com/subcatagory/${updateids._id}`, values, {
                                                     headers: {
                                                         Authorization: TokensData
                                                     }
@@ -265,7 +265,7 @@ const Sub_Category = () => {
                                                 setUpdateids(null)
                                             } else {
                                                 console.log("insert data ==> ", values);
-                                                axios.post('http://localhost:5500/subcatagory/create', values, {
+                                                axios.post('https://interviewhub-3ro7.onrender.com/create', values, {
                                                     headers: {
                                                         Authorization: TokensData
                                                     }

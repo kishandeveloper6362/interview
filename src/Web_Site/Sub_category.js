@@ -32,7 +32,7 @@ const Sub_category = () => {
     let usetokens = localStorage.getItem("token")
 
     const subcategoires = () => {
-        axios.get('http://localhost:5500/subcatagory/', {
+        axios.get('https://interviewhub-3ro7.onrender.com/subcatagory/', {
             headers: {
                 Authorization: usetokens
             }

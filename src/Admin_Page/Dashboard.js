@@ -28,7 +28,7 @@ const Dashboard = () => {
 
 
     const DataShowCategory = () => {
-        axios.get('http://localhost:5500/catagory/', {
+        axios.get('https://interviewhub-3ro7.onrender.com/catagory/', {
             headers: {
                 Authorization: GetAllApiSetToken
             }
@@ -43,7 +43,7 @@ const Dashboard = () => {
     }
 
     const DataShowSubcategory = () => {
-        axios.get('http://localhost:5500/subcatagory/', {
+        axios.get('https://interviewhub-3ro7.onrender.com/subcatagory/', {
             headers: {
                 Authorization: GetAllApiSetToken
             }
@@ -59,7 +59,7 @@ const Dashboard = () => {
     }
 
     const DataShowQuestion = () => {
-        axios.get('http://localhost:5500/questions/', {
+        axios.get('https://interviewhub-3ro7.onrender.com/questions/', {
             headers: {
                 Authorization: GetAllApiSetToken
             }

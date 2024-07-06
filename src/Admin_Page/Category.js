@@ -120,7 +120,7 @@ const Category = () => {
   const handleChanges = (index, element) => {
     // setChecked(event.target.checked);
     // console.log('E T C ====>>> ',event.target.checked);
-    axios.patch(`http://localhost:5500/catagory/` + index, { ...element, status: element.status == "on" ? "off" : "on" }, {
+    axios.patch(`https://interviewhub-3ro7.onrender.com/catagory/` + index, { ...element, status: element.status == "on" ? "off" : "on" }, {
       headers: {
         Authorization: TokenData
       }
@@ -137,7 +137,7 @@ const Category = () => {
   };
 
   const getdatApi = (index) => {
-    axios.get(`http://localhost:5500/catagory/`, {
+    axios.get(`https://interviewhub-3ro7.onrender.com/catagory/`, {
       headers: {
         Authorization: TokenData
       }
@@ -164,7 +164,7 @@ const Category = () => {
   const deletehandler = (index) => {
     console.log('delete id', index);
     // console.log( `http://localhost:5500/catagory/${ind}`);
-    axios.delete(`http://localhost:5500/catagory/${index}`, {
+    axios.delete(`https://interviewhub-3ro7.onrender.com/catagory/${index}`, {
       headers: {
         Authorization: TokenData
       }
@@ -226,7 +226,7 @@ const Category = () => {
             onSubmit={async (values, action) => {
 
               if (updateid >= 0) {
-                axios.patch(`http://localhost:5500/catagory/${category[updateid]._id}`, values, {
+                axios.patch(`https://interviewhub-3ro7.onrender.com/catagory/${category[updateid]._id}`, values, {
                   headers: {
                     Authorization: TokenData
                   }
@@ -246,7 +246,7 @@ const Category = () => {
 
                 // setCategory([...category, values])
 
-                axios.post('http://localhost:5500/catagory/create', values, {
+                axios.post('https://interviewhub-3ro7.onrender.com/catagory/create', values, {
                   headers: {
                     Authorization: TokenData
                   }

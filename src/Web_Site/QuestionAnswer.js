@@ -38,7 +38,7 @@ const QuestionAnswer = () => {
     const GetToken = localStorage.getItem('token')
 
     useEffect(() => {
-        axios.get('http://localhost:5500/questions/', {
+        axios.get('https://interviewhub-3ro7.onrender.com/questions/', {
             headers: {
                 Authorization: GetToken
             }
